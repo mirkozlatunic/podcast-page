@@ -1,0 +1,78 @@
+.modal {
+  position: absolute;
+  left: 130px;
+  bottom: 130px;
+  max-width: 723px;
+  max-height: 509px;
+  background-color: #121725;
+  padding-top: 88px;
+  padding-right: 58px;
+}
+
+.modal__title {
+  font-size: 52px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+.modal__title-green {
+  color: #54e6af;
+}
+
+.modal__text {
+  max-width: 445px;
+  color: #c2cbe5;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.modal__email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.modal__input {
+  font-size: 14px;
+  font-family: "Chivo";
+  font-weight: 700;
+  line-height: 28px;
+  width: 363px;
+  border: none;
+  background-color: #2c344b;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 28px;
+}
+
+.modal__input:focus {
+  outline: 2px solid #54e6af;
+}
+
+.modal__button {
+  position: absolute;
+  font-size: 14px;
+  font-family: "Chivo";
+  font-weight: 700;
+  line-height: 28px;
+  background-color: #54e6af;
+  color: black;
+  padding: 9px 27px;
+  border-radius: 28px;
+  border: none;
+  left: 258px;
+  cursor: pointer;
+}
+
+.modal__button:hover {
+  background-color: #b3ffe2;
+}
+
+.modal__icon {
+  padding-right: 40px;
+}
