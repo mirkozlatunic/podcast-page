@@ -76,3 +76,19 @@
 .modal__icon {
   padding-right: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .modal {
+    position: absolute;
+    left: 39px;
+    bottom: 257px;
+    max-width: 635px;
+    padding-top: 93px;
+    padding-right: 0;
+  }
+
+  .modal__title {
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+}

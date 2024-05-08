@@ -13,7 +13,6 @@ const Modal = () => {
     <div className="modal">
       <h1 className="modal__title">
         <span className="modal__title-green">Publish your podcasts </span>
-        <br />
         everywhere.
       </h1>
       <p className="modal__text">

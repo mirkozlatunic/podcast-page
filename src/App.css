@@ -4,6 +4,9 @@ body {
 
 .app {
   background-color: #121725;
+  background-image: url("./assets/desktop/image-host.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
   height: 100vh;
   width: 100vw;
   font-family: "Chivo";
@@ -22,15 +25,34 @@ body {
   margin-left: 165px;
 }
 
-.app__background {
-  padding-top: 130px;
-  padding-bottom: 130px;
-}
-
 .app__dots {
   width: 232px;
   height: 103px;
   position: absolute;
   right: 0;
   bottom: 78px;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    background-image: url("./assets/tablet/image-host.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  .app__logo {
+    margin-top: 50px;
+    margin-left: 39px;
+  }
+
+  .app__background {
+    padding: 0;
+  }
+
+  .app__dots {
+    width: 232px;
+    height: 103px;
+    left: 0;
+    bottom: 0;
+  }
 }
