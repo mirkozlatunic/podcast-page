@@ -73,8 +73,18 @@
   background-color: #b3ffe2;
 }
 
+.modal__error {
+  position: absolute;
+  color: #fb3e3e;
+  font-weight: 700;
+  padding-left: 32px;
+  margin-top: 78px;
+  margin-bottom: 0;
+}
+
 .modal__icon {
   padding-right: 40px;
+  color: #c2cbe5;
 }
 
 @media screen and (max-width: 768px) {
@@ -132,11 +142,18 @@
     padding: 9px 109px;
   }
 
+  .modal__error {
+    position: relative;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .modal__icons {
     display: flex;
     align-items: center;
     position: absolute;
-    margin-top: 225px;
+    margin-top: 240px;
     max-width: 327px;
   }
 
