@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/podcast-page/static/css/main.61de5d81.css",
+    "main.js": "/podcast-page/static/js/main.803a77fc.js",
+    "static/media/image-host.jpg": "/podcast-page/static/media/image-host.2b35f9074eb5679b627c.jpg",
+    "static/media/google-podcasts.svg": "/podcast-page/static/media/google-podcasts.e91a57f8f2ae7555677a6fc24a2272c7.svg",
+    "static/media/apple-podcast.svg": "/podcast-page/static/media/apple-podcast.d1854182034693ff7c690be3f5cee4ed.svg",
+    "static/media/pocket-casts.svg": "/podcast-page/static/media/pocket-casts.8beb87ad75e676103606fd1864e1a371.svg",
+    "static/media/spotify.svg": "/podcast-page/static/media/spotify.6f8222bb8bd93ed2a74bec685130dccc.svg",
+    "static/media/logo.svg": "/podcast-page/static/media/logo.f47677a643c79f406a3c9655e21c58b6.svg",
+    "static/media/bg-pattern-dots.svg": "/podcast-page/static/media/bg-pattern-dots.a2597e7c189c706f735b91fcfeacc326.svg",
+    "index.html": "/podcast-page/index.html",
+    "main.61de5d81.css.map": "/podcast-page/static/css/main.61de5d81.css.map",
+    "main.803a77fc.js.map": "/podcast-page/static/js/main.803a77fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61de5d81.css",
+    "static/js/main.803a77fc.js"
+  ]
+}
