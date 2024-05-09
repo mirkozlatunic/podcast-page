@@ -92,3 +92,62 @@
     margin-bottom: 32px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .modal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 0;
+    max-width: 327px;
+    padding: 175px 24px 94px 24px;
+    bottom: 0;
+    background-color: rgba(18, 23, 37, 0.9);
+    top: 0;
+  }
+
+  .modal__title {
+    font-size: 26px;
+  }
+
+  .modal__text {
+    font-size: 15px;
+    margin-bottom: 98px;
+  }
+
+  .modal__email {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .modal__input {
+    width: 263px;
+    z-index: 2;
+    padding: 9px 32px;
+  }
+
+  .modal__button {
+    position: relative;
+    left: 0;
+    padding: 9px 109px;
+  }
+
+  .modal__icons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 225px;
+    max-width: 327px;
+  }
+
+  .modal__icon {
+    padding: 0;
+    max-height: 17px;
+    max-width: 77px;
+    padding-right: 23px;
+  }
+
+  .modal__icon:last-child {
+    padding-right: 0;
+  }
+}
